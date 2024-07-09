@@ -94,14 +94,14 @@
                 <h5>Expected May 2025</h5>
                 <p><em>Arizona State University</em></p>
                 <p>Coursework: Mobile Computing, Software Security, Data Mining, Data Visualization, Knowledge Representation, Engineering Blockchain Applications</p>
-              </div><!-- Edn Resume Item -->
+              </div>
   
               <div class="resume-item">
                 <h4>Bachelor of Technology in Computer Science and Engineering</h4>
                 <h5>June 2023</h5>
                 <p><em>Institute of Technology, Nirma University</em></p>
                 <p>Coursework: Design and Analysis of Algorithm, Machine Learning, Digital Image Processing and Analysis, Application Development Framework</p>
-              </div><!-- Edn Resume Item -->
+              </div>
   
               <h3 class="resume-title">Freelance</h3>
               <div class="resume-item">
@@ -110,7 +110,7 @@
                 <p><em>Slot Payout</em></p>
                 <ul>
                   <li>
-                    Implemented historical and scheduled reporting modules along with robust slot machine integration, eliminating
+                    Implemented historical and scheduled reporting modules by using C# and Arduino Chip along with robust slot machine integration, eliminating
                     potential cashier theft by tightly attaching cash drawers with individual cashier accounts, resulting in a substantial
                     25% surge in revenue.
                   </li>
@@ -213,7 +213,11 @@
     <section id="certificates" class="projects section">
       <div style="margin-right: 130px;" class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Certificates</h2>
+          <h2>Courses</h2>
+          <div class="row" id="courses-container">
+              
+          </div>
+          <h2 style="margin-top: 40px;">Certificates</h2>
           <div class="row" id="certificates-container">
               
           </div>
@@ -301,24 +305,25 @@
 
 
   document.addEventListener('DOMContentLoaded', function() {
-    fetch('assets/json/certificates.json')
+    fetch('assets/json/courses.json')
       .then(response => response.json())
       .then(data => {
-        const container = document.getElementById('certificates-container');
+        const container = document.getElementById('courses-container');
 
         data.forEach(certificate => {
           const card = document.createElement('div');
           card.className = 'col-lg-3 col-md-6 col-sm-12 mb-2';
           
           card.innerHTML = `
-                  <div class="card">
+                  <div class="card-c card">
+                    <a href="${certificate.certificateLink}" target="_blank">
                     <div class="content">
-                      <img class="logo" src="${certificate.image}" alt="mparticle">
                       <h6>${certificate.title}</h6>
                       <div class="hover_content">
                         <p>${certificate.instructor}</p>
                       </div>
                     </div>
+                    </a>
                   </div>
           `;
           
@@ -330,6 +335,36 @@
       
   });
 
+  document.addEventListener('DOMContentLoaded', function() {
+    fetch('assets/json/certificates.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('certificates-container');
+
+        data.forEach(certificate => {
+          const card = document.createElement('div');
+          card.className = 'col-lg-3 col-md-6 col-sm-12 mb-2';
+          
+          card.innerHTML = `
+                  <div class="card-c card">
+                    <a href="${certificate.certificateLink}" target="_blank">
+                    <div class="content">
+                      <h6>${certificate.title}</h6>
+                      <div class="hover_content">
+                        <p>${certificate.instructor}</p>
+                      </div>
+                    </div>
+                    </a>
+                  </div>
+          `;
+          
+          container.appendChild(card);
+        });
+      })
+      .catch(error => console.error('Error fetching projects:', error));
+
+      
+  });
   
   </script>
 </body>
