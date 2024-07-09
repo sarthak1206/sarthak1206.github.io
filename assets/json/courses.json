@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Algorithmic Toolbox",
+    "instructor": "This online course covered basic algorithmic techniques and ideas for computational problems arising frequently in practical applications: sorting and searching, divide and conquer, greedy algorithms, dynamic programming.",
+    "achievedOn": "13th November 2021",
+    "certificateLink": "https://coursera.org/verify/R744R6NR5MM9"
+  },
+  {
+    "title": "Machine Learning",
+    "instructor": "This course provided a broad introduction to machine learning, datamining, and statistical pattern recognition. I also learnt how to apply learning algorithms to building smart robots, text understanding, computer vision, and other areas.",
+    "achievedOn": "7th July 2024",
+    "certificateLink": "https://coursera.org/verify/Q8Y4X6WDDJB5"
+  },
+  {
+    "title": "Prompt Engineering for Everyone",
+    "instructor": "This course aimed to teach me how to talk to conversational AI effectively as well as to move me from a naive approach to prompting to a more systematic one that can extract the maximum value from what AI offers.",
+    "achievedOn": "8th January 2024",
+    "certificateLink": "https://courses.cognitiveclass.ai/certificates/5ec57fd4b1e94975954f73bc445cdd07"
+  },
+  {
+    "title": "Digital Systems: From Logic Gates to Processors",
+    "instructor": "This course gave me a complete insight into the modern design of digital systems fundamentals from a practical point of view. Unlike other classic digital circuits courses, it focuses more on the system than on the electronics that support it.",
+    "achievedOn": "31st October 2020",
+    "certificateLink": "https://coursera.org/verify/9WD8CCVLETK9"
+  },
+  {
+    "title": "Introduction to AI",
+    "instructor": "This course covered core AI concepts, including DL, ML, and NN. I examined generative AI models, including LLMs and their capabilities. Furthermore, you’ll examine AI’s application across domains such as NLP, computer vision, and robotics.",
+    "achievedOn": "3rd September 2020",
+    "certificateLink": "https://coursera.org/verify/Q8Y4X6WDDJB5"
+  },
+  {
+    "title": "Crash Course on Python",
+    "instructor": "This course covered the benefits of programming in IT roles; understand basic Python syntax; figure out how the building blocks of programming fit together; and combine all of this knowledge to solve a complex problem.",
+    "achievedOn": "28th September 2020",
+    "certiicateLink": "https://coursera.org/verify/U7SKZLVQLJPB"
+  }
+]

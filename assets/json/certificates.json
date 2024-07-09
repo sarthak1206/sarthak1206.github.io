@@ -1,28 +1,26 @@
 [
   {
-    "title": "Algorithmic Toolbox",
-    "image": "assets/img/certificates/Coursera.png",
-    "instructor": "This online course covered basic algorithmic techniques and ideas for computational problems arising frequently in practical applications: sorting and searching, divide and conquer, greedy algorithms, dynamic programming.",
-    "achievedOn": "13th November 2021",
-    "certiicateLink": "https://coursera.org/verify/R744R6NR5MM9"
+    "title": "Locatify (CUBIX'20)",
+    "instructor": "Proudly secured 2nd place in the 'Locatify' event organized by the Computer Science Department at my university.",
+    "achievedOn": "30th January 2020",
+    "certificateLink": "https://drive.google.com/file/d/16kFygJ9M7VK_L4WGDRYet2V0ES0-TLJu/view?usp=sharing"
   },
   {
-    "title": "Crash Course on Python",
-    "image": "assets/img/certificates/Coursera.png",
-    "instructor": "This course covered the benefits of programming in IT roles; understand basic Python syntax; be able to write simple programs using Python; figure out how the building blocks of programming fit together; and combine all of this knowledge to solve a complex problem.",
-    "achievedOn": "28th September 2020",
-    "certiicateLink": "https://coursera.org/verify/U7SKZLVQLJPB"
+    "title": "Summer of Code (Coding Ninjas)",
+    "instructor": "Achieved 16th rank in the Summer of Code competition organized by Coding Ninjas.",
+    "achievedOn": "29th June 2020",
+    "certificateLink": "https://drive.google.com/file/d/10V8vouL42KaZ-K7un_sPVqBrpgrmouqx/view?usp=sharing"
   },
   {
-    "title": "Introduction to AI",
-    "image": "assets/img/certificates/Coursera.png",
-    "instructor": "This course covered core AI concepts, including DL, ML, and NN. I examined generative AI models, including LLMs and their capabilities. Furthermore, you’ll examine AI’s application across domains such as NLP, computer vision, and robotics.",
-    "achievedOn": "3rd September 2020",
-    "certiicateLink": "https://coursera.org/verify/Q8Y4X6WDDJB5"
-  },{
-    "title": "Machine Learning",
-    "image": "assets/img/portfolio/app-1.jpg",
-    "instructor": "Andrew Ng",
-    "achievedOn": "20th May 2020"
+    "title": "Academic Excellence Cetificate",
+    "instructor": "I was awarded the Academic Excellence Certificate for achieving a 9.22 SPI in my seventh semester, recognizing my outstanding academic performance.",
+    "achievedOn": "5th May 2023",
+    "certificateLink": "https://drive.google.com/file/d/1OX_QwWWxhMQ_vRRlUoqexc76MjCx0kOr/view?usp=sharing"
+  },
+  {
+    "title": "Laser based Sound Production ",
+    "instructor": "I was awarded 3rd rank in the Science Exposition for the year 2015-2016, in the event 'Rejuvenate' organized by Jansahayak Trust at Hiramani School.",
+    "achievedOn": "21st August 2015",
+    "certificateLink": "https://drive.google.com/file/d/1EoxFkiGez8SfvDnxwdub7sT9cZoRTLvg/view?usp=sharing"
   }
 ]
